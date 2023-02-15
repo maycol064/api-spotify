@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: 'Courier New', Courier, monospace;
+}
