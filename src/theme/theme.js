@@ -3,13 +3,16 @@ import { createTheme } from "@mui/material";
 export const themeAPISpotify = createTheme({
     palette: {
         primary: {
-            main: '#81b71a',
+            main: '#2EBD59',
         },
-        secondary: {
+        background: {
             main: '#121212'
         },
         text: {
             main: '#F0F0F0F0'
+        },
+        backgroundSecondary: {
+            main: '#000000'
         }
     },
     typography: {
